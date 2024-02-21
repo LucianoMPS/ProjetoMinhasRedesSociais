@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    position: relative;
+    margin: 0;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    position: sticky;
+    display: block;
+    bottom: 10px;
+
+    margin: auto;
+
+
+    width: 50%;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-radius: 10px;
+
+
+    text-align: center;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+
+a:hover{
+    font-weight: bold;
+    background-color: rgba(255, 0, 0);
+}
