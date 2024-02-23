@@ -21,9 +21,9 @@ nav{
     top: 50%;
     right: 0;
     transform: translate(0, -50%);
-
-    margin-top: 1vw;
+    padding: 10px;
     margin-right: 1vw;
+    background-color: rgba(0, 0, 0, 0.589);
 }
 
 nav > a{
@@ -31,14 +31,17 @@ nav > a{
     margin-bottom: 10px;
 }
 
-nav img:hover{
-    border: 2px solid black;
-}
-
 nav img{
     width: 60px;
     height: 60px;
-    border-radius: 50%;
+    border-radius: 20%;
+    box-sizing: border-box;
+    
+}
+
+nav img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.712);
+    transition: border 0.5s;
 }
 
 /* main */
@@ -55,7 +58,7 @@ div#cell{
     transform: translate(-50%, -50%);
     
     max-width: 100%;
-    max-height: 98%;
+    max-height: 97%;
 
     width: 300px;
     height: 600px;
@@ -68,7 +71,7 @@ div#cell > img{
 
 div#cell > iframe{
     width: 85%;
-    height: 74%;
+    height: 75%;
 
     position: absolute;
     left: 50%;
